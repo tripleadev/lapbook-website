@@ -8,7 +8,7 @@ const Layout = ({ children, title }) => (
     <Head>
       <title>{title}</title>
     </Head>
-    <Header />
+    <Header siteTitle="Lapbook" />
     <main>{children}</main>
   </>
 );
