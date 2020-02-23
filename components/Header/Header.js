@@ -1,21 +1,22 @@
 import React from 'react';
 import Link from 'next/link';
-import './Header.scss';
+import styles from './Header.scss';
 
 const Header = () => {
-  function click() {
-    var x = document.getElementById('header');
+  const header = React.createRef();
+
+  const click = e => {
     if (x.className === 'topnav') {
       x.className += 'responsive';
     } else {
       x.className = 'header';
     }
-  }
+  };
 
   return (
-    <header id="header" className="header">
+    <header className={styles.header}>
       <Link href="/">
-        <a className="active">Home</a>
+        <a className={styles.active}>Home</a>
       </Link>
       <Link href="/">
         <a>Temat 1</a>
@@ -27,7 +28,7 @@ const Header = () => {
         <a>Temat 3</a>
       </Link>
       <Link href="/">
-        <a className="icon" onClick="click()">
+        <a className={styles.icon} onClick={click}>
           &#9776;
         </a>
       </Link>
