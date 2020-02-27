@@ -1,8 +1,9 @@
 import React, { useState } from 'react';
 import Link from 'next/link';
-import './Button.scss';
+import Hamburger from '../Hamburger/Hamburger';
+import './Navigation.scss';
 
-const Button = () => {
+const Navigation = () => {
   const [isMenuOpened, setMenuOpened] = useState(false);
 
   return (
@@ -13,7 +14,7 @@ const Button = () => {
           setMenuOpened(isMenuOpened ? false : true);
           document.body.style.overflow = isMenuOpened ? 'auto' : 'hidden';
         }}>
-        <div className={`bar ${isMenuOpened ? 'bar--menu-opened' : 'bar--menu-closed'}`}></div>
+        <Hamburger isMenuOpened={isMenuOpened} />
       </div>
       <div className={`list ${isMenuOpened ? 'list--opened' : 'list--closed'}`}>
         <h1>Lapbook</h1>
@@ -39,4 +40,4 @@ const Button = () => {
   );
 };
 
-export default Button;
+export default Navigation;

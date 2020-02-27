@@ -1,7 +1,7 @@
 import React from 'react';
 import Layout from '../components/Layout/Layout';
 import '../components/Books/BookPage.scss';
-import Header from '../components/Header/Header';
+import Header from '../components/ArticleHeader/ArticleHeader';
 
 const Rodzaju = () => (
   <Layout title="Księga Rodzaju">

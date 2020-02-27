@@ -67,8 +67,8 @@ i {
 }
 
 footer {
-  width: 80%;
-  text-align: center;
-  margin: 3em auto 1em auto;
+  width: calc(100% - 5em); // Nav button width + its margins
+  text-align: justify;
+  padding: 1.5em;
   line-height: 1em;
 }
