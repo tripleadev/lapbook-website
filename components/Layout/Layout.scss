@@ -22,7 +22,6 @@ h5,
 h6 {
   font-family: 'Stoke';
   font-weight: lighter;
-  margin: 0.5em 0;
 }
 
 h1 {
@@ -68,7 +67,7 @@ i {
 
 footer {
   width: calc(100% - 5em); // Nav button width + its margins
-  text-align: justify;
-  padding: 1.5em;
+  text-align: center;
   line-height: 1em;
+  padding: 0 0 1em 1em;
 }
