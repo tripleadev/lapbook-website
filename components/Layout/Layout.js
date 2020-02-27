@@ -1,15 +1,21 @@
 import React from 'react';
 import Head from 'next/head';
 import './Layout.scss';
-import Header from '../Header/Header';
+import Button from '../Navigation/Button';
 
 const Layout = ({ children, title }) => (
   <>
     <Head>
-      <title>{title}</title>
+      <title>{title ? `${title} ‧ ` : ''}Lapbook</title>
     </Head>
-    <Header siteTitle="Lapbook" />
     <main>{children}</main>
+    <Button />
+    <footer>
+      <i>
+        Lapbook stworzony przez Mateusza Dobrzyńskeigo, Adama Siekierskiego i Artura Dudka. Strona
+        stworzona przez Artura i Adama.
+      </i>
+    </footer>
   </>
 );
 

@@ -1,17 +1,30 @@
 import React from 'react';
+import Link from 'next/link';
 import Layout from '../components/Layout/Layout';
+import '../components/IndexPage/IndexPage.scss';
 
 const IndexPage = () => (
-  <Layout title="Lapbook">
-    <h1>Tytuł – Stoke 36</h1>
-    <h2>Tytuł – Stoke 36</h2>
-    <h3>Tytuł – Stoke 36</h3>
-    <h4>Tytuł – Stoke 36</h4>
-    <h5>Tytuł – Stoke 36</h5>
-    <h6>Tytuł – Stoke 36</h6>
-    <q>Tytuł – Stoke 36</q>
-    <p>Tytuł – Stoke 36</p>
-    <i>Tytuł – Stoke 36</i>
+  <Layout>
+    <div className="container">
+      <h1>Lapbook</h1>
+      <nav className="navigation">
+        <Link href="/rodzaju">
+          <a>Księga rodzaju</a>
+        </Link>
+        <Link href="/psalmy">
+          <a>Księga psalmów</a>
+        </Link>
+        <Link href="/kohaleta">
+          <a>Księga koheleta</a>
+        </Link>
+        <Link href="/ewangelie">
+          <a>Ewangelie</a>
+        </Link>
+        <Link href="/apokalipsa">
+          <a>Apokalipsa</a>
+        </Link>
+      </nav>
+    </div>
   </Layout>
 );
 

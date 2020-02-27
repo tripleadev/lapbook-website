@@ -1,64 +1,11 @@
-import React, { useState } from 'react';
-import Link from 'next/link';
+import React from 'react';
 import './Header.scss';
 
-const Header = ({ siteTitle }) => {
-  const [isMenuOpened, setMenuOpened] = useState(false);
-  return (
-    <header>
-      <div className="header">
-        <Link href="/" className="link">
-          <a>{siteTitle}</a>
-        </Link>
-        <button
-          className="menuIcon"
-          onClick={() => {
-            setMenuOpened(isMenuOpened ? false : true);
-            document.body.style.overflow = isMenuOpened ? 'auto' : 'hidden';
-          }}>
-          <div className={`bar ${isMenuOpened ? 'bar--menu-opened' : 'bar--menu-closed'}`}></div>
-        </button>
-        <ul className={`list ${isMenuOpened ? 'list--opened' : 'list--closed'}`}>
-          <li>
-            <Link
-              href="/"
-              onClick={() => {
-                document.body.style.overflow = 'auto';
-              }}>
-              <a>Home</a>
-            </Link>
-          </li>
-          <li>
-            <Link
-              href="/"
-              onClick={() => {
-                document.body.style.overflow = 'auto';
-              }}>
-              <a>Temat 1</a>
-            </Link>
-          </li>
-          <li>
-            <Link
-              href="/"
-              onClick={() => {
-                document.body.style.overflow = 'auto';
-              }}>
-              <a>Temat 2</a>
-            </Link>
-          </li>
-          <li>
-            <Link
-              href="/"
-              onClick={() => {
-                document.body.style.overflow = 'auto';
-              }}>
-              <a>Temat 3</a>
-            </Link>
-          </li>
-        </ul>
-      </div>
-    </header>
-  );
-};
+const Header = ({ title }) => (
+  <div className="header">
+    <img src="https://cdn.pixabay.com/photo/2016/03/16/09/20/abraham-1260073_960_720.jpg" />
+    <h1>{title}</h1>
+  </div>
+);
 
 export default Header;

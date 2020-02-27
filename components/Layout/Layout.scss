@@ -3,6 +3,10 @@
 @import url('https://fonts.googleapis.com/css?family=Quintessential&display=swap&subset=latin-ext');
 @import url('https://fonts.googleapis.com/css?family=Crimson+Pro&display=swap&subset=latin-ext');
 
+body {
+  background-color: beige;
+}
+
 * {
   box-sizing: border-box;
   margin: 0;
@@ -18,6 +22,7 @@ h5,
 h6 {
   font-family: 'Stoke';
   font-weight: lighter;
+  margin: 0.5em 0;
 }
 
 h1 {
@@ -59,4 +64,11 @@ i {
   font-family: 'Crimson Pro';
   font-size: 9pt;
   font-style: normal;
+}
+
+footer {
+  width: 80%;
+  text-align: center;
+  margin: 3em auto 1em auto;
+  line-height: 1em;
 }
