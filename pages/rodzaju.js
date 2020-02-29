@@ -51,10 +51,10 @@ const Rodzaju = () => (
       <i>
         Bibliografia:
         <br />
-        Pochodzenie nazwy „Genesis” – Wikipedia The Free Encyclopedia,{' '}
+        Pochodzenie nazwy „Genesis” - Wikipedia The Free Encyclopedia,{' '}
         <a href="https://en.wikipedia.org/wiki/Book_of_Genesis">Book of Genesis</a>
         <br />
-        Wersety zostały zaczerpnięte z <a href="https://biblia.deon.pl/">Biblii Tysiąclecia</a>.
+        Wersety zostały zaczerpnięte z <a href="https://biblia.deon.pl/">Biblii Tysiąclecia</a>.
         wyd. Pallottinum w Poznaniu, 2003
       </i>
     </div>

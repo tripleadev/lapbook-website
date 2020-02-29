@@ -9,19 +9,10 @@ const IndexPage = () => (
       <h1>Lapbook</h1>
       <nav className="navigation">
         <Link href="/rodzaju">
-          <a>Księga rodzaju</a>
+          <a>Księga Rodzaju</a>
         </Link>
-        <Link href="/psalmy">
-          <a>Księga psalmów</a>
-        </Link>
-        <Link href="/kohaleta">
-          <a>Księga koheleta</a>
-        </Link>
-        <Link href="/ewangelie">
-          <a>Ewangelie</a>
-        </Link>
-        <Link href="/apokalipsa">
-          <a>Apokalipsa</a>
+        <Link href="/przeklady">
+          <a>Przekłady Biblii</a>
         </Link>
       </nav>
     </div>
