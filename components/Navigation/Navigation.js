@@ -1,10 +1,13 @@
-import React, { useState } from 'react';
+import React, { useState, useEffect } from 'react';
 import Link from 'next/link';
 import Hamburger from '../Hamburger/Hamburger';
 import './Navigation.scss';
 
 const Navigation = () => {
   const [isMenuOpened, setMenuOpened] = useState(false);
+  useEffect(() => {
+    document.body.style.overflow = isMenuOpened ? 'hidden' : 'auto';
+  });
 
   return (
     <>
@@ -12,7 +15,6 @@ const Navigation = () => {
         className="nav-button"
         onClick={() => {
           setMenuOpened(isMenuOpened ? false : true);
-          document.body.style.overflow = isMenuOpened ? 'auto' : 'hidden';
         }}>
         <Hamburger isMenuOpened={isMenuOpened} />
       </div>
