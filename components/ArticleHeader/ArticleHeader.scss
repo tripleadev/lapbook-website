@@ -9,9 +9,11 @@
   overflow: hidden;
 
   img {
-    width: 120vw;
     filter: blur(3px);
     margin: 0 auto;
+    min-width: calc(100vw + 10px);
+    min-height: 100%;
+    object-fit: cover;
   }
 
   h1 {
