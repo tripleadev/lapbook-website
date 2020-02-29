@@ -5,7 +5,15 @@ import Header from '../components/ArticleHeader/ArticleHeader';
 
 const Rodzaju = () => (
   <Layout title="Księga Rodzaju">
-    <Header title="Księga Rodzaju" img="https://i.imgur.com/w9UnyEw.jpg" />
+    <Header
+      title="Księga Rodzaju"
+      img="https://i.imgur.com/w9UnyEw.jpg"
+      credit={
+        <a href="https://pl.wikipedia.org/wiki/Adam_i_Ewa_(obraz_Tycjana)">
+          Wikipedia - Adam i Ewa (obraz Tycjana)
+        </a>
+      }
+    />
     <div className="wrapper">
       <q>Wtedy Bóg rzekł: «Niechaj się stanie światłość!» I stała się światłość.</q>
       <br />

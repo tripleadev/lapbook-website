@@ -7,8 +7,9 @@
   justify-content: center;
   text-align: center;
   overflow: hidden;
+  position: relative;
 
-  img {
+  .background {
     filter: blur(3px);
     margin: 0 auto;
     min-width: calc(100vw + 10px);
@@ -18,5 +19,22 @@
 
   h1 {
     position: absolute;
+  }
+
+  i {
+    position: absolute;
+    right: 0.5em;
+    bottom: 0;
+
+    img {
+      height: 1em;
+      margin-right: 0.5em;
+      vertical-align: middle;
+    }
+
+    a {
+      vertical-align: middle;
+      color: white;
+    }
   }
 }
