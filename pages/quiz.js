@@ -12,30 +12,28 @@ const QuizPage = () => {
   const [waiting, setWaiting] = useState(false);
 
   const onSubmit = ({ value, question }) => {
-    if (value !== '') {
-      if (value === question.answer) {
-        setMessage('<p style="color: green">Poprawna odpowiedź!</p>');
-        setCorrectAnswers(i => i + 1);
-        setWaiting(true);
-        setTimeout(() => {
-          setIndex(i => i + 1);
-          setMessage('');
-          setWaiting(false);
-        }, 2500);
-      } else {
-        setMessage(
-          `<p style="color: red">Niepoprawna odpowiedź!</p><p>Poprawna odpowiedź: <b>${question.answer.replace(
-            /^\w/,
-            c => c.toUpperCase(),
-          )}</b></p>`,
-        );
-        setWaiting(true);
-        setTimeout(() => {
-          setIndex(i => i + 1);
-          setMessage('');
-          setWaiting(false);
-        }, 2500);
-      }
+    if (value === question.answer) {
+      setMessage('<p style="color: green">Poprawna odpowiedź!</p>');
+      setCorrectAnswers(i => i + 1);
+      setWaiting(true);
+      setTimeout(() => {
+        setIndex(i => i + 1);
+        setMessage('');
+        setWaiting(false);
+      }, 2500);
+    } else {
+      setMessage(
+        `<p style="color: red">Niepoprawna odpowiedź!</p><p>Poprawna odpowiedź: <b>${question.answer.replace(
+          /^\w/,
+          c => c.toUpperCase(),
+        )}</b></p>`,
+      );
+      setWaiting(true);
+      setTimeout(() => {
+        setIndex(i => i + 1);
+        setMessage('');
+        setWaiting(false);
+      }, 2500);
     }
   };
 

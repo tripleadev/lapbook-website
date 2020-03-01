@@ -11,7 +11,7 @@ const IndexPage = () => (
         <Link href="/rodzaju">
           <a>Księga Rodzaju</a>
         </Link>
-        <Link href="/kohaleta">
+        <Link href="/koheleta">
           <a>Księga Koheleta</a>
         </Link>
         <Link href="/hioba">
