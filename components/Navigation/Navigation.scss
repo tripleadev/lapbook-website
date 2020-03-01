@@ -46,10 +46,10 @@
     margin: 5px;
     display: block;
     font-family: 'Quintessential';
-    transition: all 0.2s ease-in-out;
+    transition: all 0.2s;
 
     &:hover {
-      font-size: 1.7rem;
+      transform: scale(1.1);
     }
   }
 }
