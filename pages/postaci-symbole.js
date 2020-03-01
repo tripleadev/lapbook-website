@@ -87,7 +87,7 @@ const PostaciSymbole = () => (
       <i>
         Bibliografia:
         <br />
-        Symbole i Alegorie – Podręczni
+        Symbole i Alegorie – Podręczni
       </i>
     </div>
   </Layout>
