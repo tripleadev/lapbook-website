@@ -4,11 +4,15 @@ import '../components/Books/BookPage.scss';
 import Header from '../components/ArticleHeader/ArticleHeader';
 
 const Rodzaju = () => (
-  <Layout title="Księga Rodzaju">
+  <Layout title="Księga Kohaleta">
     <Header
       title="Księga Kohaleta"
       img="https://static.epodreczniki.pl/portal/f/res-minimized/R1YOCuaAD7g3d/3/2IFTLsgK3wVkqm4i1A7BCdD9MXZ60aDG.jpg"
-      credit={<>Pierfrancesco Cittadini, Vanitas, ok. 1681, domena publiczna</>}
+      credit={
+        <a href="https://en.wikipedia.org/wiki/Vanitas#/media/File:Pier_Francesco_Cittadini_Vanitas-Stillleben.jpg">
+          Wikipedia - Pierfrancesco Cittadini, Vanitas
+        </a>
+      }
     />
     <div className="wrapper">
       <q>Vanitas vanitatum et omnia vanitas.</q>

@@ -11,6 +11,12 @@ const IndexPage = () => (
         <Link href="/rodzaju">
           <a>Księga Rodzaju</a>
         </Link>
+        <Link href="/kohaleta">
+          <a>Księga Koheleta</a>
+        </Link>
+        <Link href="/hioba">
+          <a>Księga Hioba</a>
+        </Link>
         <Link href="/przeklady">
           <a>Przekłady Biblii</a>
         </Link>

@@ -8,6 +8,11 @@ const Przeklady = () => (
     <Header
       title="Przekłady Biblii"
       img="https://ocdn.eu/pulscms-transforms/1/BjBktkqTURBXy8zOGM2YjFkMGMzMmM4ZmZkNjQ4MTgwYWU1Njc5NjFkMi5qcGVnkZUDAMyUzRKQzQpx"
+      credit={
+        <a href="https://www.shutterstock.com/pl/image-photo/deventer-netherlands-march-16-old-dutch-153715283">
+          Shutterstock - by hans engbers
+        </a>
+      }
     />
     <div className="wrapper">
       Przekłady Biblii Po spisaniu wpierw przekazywanej ustnie treści Biblii, aby dotarła ona do jak
