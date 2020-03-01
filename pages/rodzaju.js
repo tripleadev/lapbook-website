@@ -39,8 +39,8 @@ const Rodzaju = () => (
       <h2>Księga Rodzaju współcześnie</h2>
       <p>
         Grupa Filmowa Darwin, stworzyła serię krótkometrażowych filmów p.t. „Wielkie Konflikty”,
-        przedstawiającą zatargi postaci znanych z literatury i popkultury. W wielu odcinkach
-        przedstawione zostały sceny z Biblii, również te z księgi Rodzaju.
+        przedstawiającą zatargi postaci znanych z literatury i popkultury. W wielu odcinkach
+        przedstawione zostały sceny z Biblii, również te z księgi Rodzaju.
         <br />
         <a href="https://www.youtube.com/watch?v=jiVb2HV6xBQ">Adam vs Wąż</a>
         <br />

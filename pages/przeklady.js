@@ -7,11 +7,11 @@ const Przeklady = () => (
   <Layout title="Przekłady Biblii">
     <Header
       title="Przekłady Biblii"
-      img="https://images.unsplash.com/photo-1512131852012-622823c149e2"
+      img="https://ocdn.eu/pulscms-transforms/1/BjBktkqTURBXy8zOGM2YjFkMGMzMmM4ZmZkNjQ4MTgwYWU1Njc5NjFkMi5qcGVnkZUDAMyUzRKQzQpx"
       credit={
-        <>
-          <a href="https://unsplash.com/photos/L4gw27XZN1I">Kiwihug</a> on Unsplash
-        </>
+        <a href="https://www.shutterstock.com/pl/image-photo/deventer-netherlands-march-16-old-dutch-153715283">
+          Shutterstock - by hans engbers
+        </a>
       }
     />
     <div className="wrapper">
