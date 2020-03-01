@@ -14,6 +14,9 @@ const IndexPage = () => (
         <Link href="/przeklady">
           <a>Przekłady Biblii</a>
         </Link>
+        <Link href="/quiz">
+          <a>Quiz</a>
+        </Link>
       </nav>
     </div>
   </Layout>

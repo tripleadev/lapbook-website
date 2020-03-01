@@ -1,0 +1,30 @@
+.quizWrapper {
+  min-height: 100vh;
+  width: 100%;
+  margin: 0;
+  padding: 5px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  box-sizing: border-box;
+
+  .restart {
+    font-size: 1em;
+    background-color: beige;
+    color: black;
+    padding: 0 10px;
+    outline: none;
+    border: none;
+    border-bottom: 2px black solid;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    margin-top: 1em;
+
+    &:hover {
+      background-color: black;
+      color: beige;
+    }
+  }
+}

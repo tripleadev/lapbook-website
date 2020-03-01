@@ -7,7 +7,12 @@ const Przeklady = () => (
   <Layout title="Przekłady Biblii">
     <Header
       title="Przekłady Biblii"
-      img="https://ocdn.eu/pulscms-transforms/1/BjBktkqTURBXy8zOGM2YjFkMGMzMmM4ZmZkNjQ4MTgwYWU1Njc5NjFkMi5qcGVnkZUDAMyUzRKQzQpx"
+      img="https://images.unsplash.com/photo-1512131852012-622823c149e2"
+      credit={
+        <>
+          <a href="https://unsplash.com/photos/L4gw27XZN1I">Kiwihug</a> on Unsplash
+        </>
+      }
     />
     <div className="wrapper">
       Przekłady Biblii Po spisaniu wpierw przekazywanej ustnie treści Biblii, aby dotarła ona do jak
