@@ -15,9 +15,11 @@ const Przeklady = () => (
       }
     />
     <div className="wrapper">
-      Przekłady Biblii Po spisaniu wpierw przekazywanej ustnie treści Biblii, aby dotarła ona do jak
-      największej ilości odbiorców, pojawiła się potrzeba napisania przekładów. Pierwsze z nich
-      pochodzą z III w p. n. e., a nowe powstają do dzisiaj.
+      <p>
+        Przekłady Biblii Po spisaniu wpierw przekazywanej ustnie treści Biblii, aby dotarła ona do
+        jak największej ilości odbiorców, pojawiła się potrzeba napisania przekładów. Pierwsze z
+        nich pochodzą z III w p. n. e., a nowe powstają do dzisiaj.
+      </p>
       <h2>Lista najważniejszych przekładów Biblii:</h2>
       <ul>
         <li>
@@ -44,8 +46,12 @@ const Przeklady = () => (
         </li>
       </ul>
       <h2>Przydatne linki</h2>
-      <a href="https://www.bible.com/pl/">Aplikacja Bible</a> - aplikacja umożliwiająca czytanie i
-      przeglądanie Biblii w ponad 900 przekładach
+      <p>
+        <a href="https://www.bible.com/pl/">Aplikacja Bible</a> - aplikacja umożliwiająca czytanie i
+        przeglądanie Biblii w ponad 900 przekładach
+        <br />
+        <a href="https://biblia.deon.pl">Biblia Deon</a> - cała Biblia Tysiąclecia w wersji online
+      </p>
     </div>
   </Layout>
 );
