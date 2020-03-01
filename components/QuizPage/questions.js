@@ -76,4 +76,26 @@ export const questions = shuffle([
     ],
     answer: 'Ilość kilometrów dzielących Nazaret z Betlejem',
   },
+  {
+    question: 'Komu przypisuje się autorstwo Księgi Psalmów?',
+    type: 'radio',
+    answers: ['Jessemu', 'Dawidowi', 'Mojżeszowi'],
+    answer: 'Dawidowi',
+  },
+  {
+    question: 'Która księga została przyjęta do kanonu Biblii jako ostatnia?',
+    type: 'radio',
+    answers: ['Apokalipsa Świętego Jana', 'Księga Koheleta', 'Księga Psalmów'],
+    answer: 'Apokalipsa Świętego Jana',
+  },
+  {
+    question: 'Grecka nazwa Księgi Rodzaju to...',
+    type: 'text',
+    answer: 'genesis',
+  },
+  {
+    question: 'Symbol Jezusa Chrystusa to...',
+    type: 'text',
+    answer: 'baranek',
+  },
 ]);

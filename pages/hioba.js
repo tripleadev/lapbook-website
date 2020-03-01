@@ -3,7 +3,7 @@ import Layout from '../components/Layout/Layout';
 import '../components/Books/BookPage.scss';
 import Header from '../components/ArticleHeader/ArticleHeader';
 
-const Rodzaju = () => (
+const Hioba = () => (
   <Layout title="Księga Hioba">
     <Header
       title="Księga Hioba"
@@ -46,4 +46,4 @@ const Rodzaju = () => (
   </Layout>
 );
 
-export default Rodzaju;
+export default Hioba;

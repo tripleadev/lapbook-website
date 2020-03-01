@@ -3,7 +3,7 @@ import Layout from '../components/Layout/Layout';
 import '../components/Books/BookPage.scss';
 import Header from '../components/ArticleHeader/ArticleHeader';
 
-const Rodzaju = () => (
+const Koheleta = () => (
   <Layout title="Księga Koheleta">
     <Header
       title="Księga Koheleta"
@@ -44,4 +44,4 @@ const Rodzaju = () => (
   </Layout>
 );
 
-export default Rodzaju;
+export default Koheleta;

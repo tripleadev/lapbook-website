@@ -3,7 +3,7 @@ import Layout from '../components/Layout/Layout';
 import '../components/Books/BookPage.scss';
 import Header from '../components/ArticleHeader/ArticleHeader';
 
-const Rodzaju = () => (
+const Apokalipsa = () => (
   <Layout title="Apokalipsa Świętego Jana">
     <Header title="Apokalipsa Świętego Jana" img="" credit={<a href=""></a>} />
     <div className="wrapper">
@@ -75,4 +75,4 @@ const Rodzaju = () => (
   </Layout>
 );
 
-export default Rodzaju;
+export default Apokalipsa;
