@@ -30,6 +30,12 @@ const Navigation = () => {
           <Link href="/hioba">
             <a>Księga Hioba</a>
           </Link>
+          <Link href="/psalmow">
+            <a>Księga Psalmów</a>
+          </Link>
+          <Link href="/apokalipsa">
+            <a>Apokalipsa Świętego Jana</a>
+          </Link>
           <Link href="/przeklady">
             <a>Przekłady Biblii</a>
           </Link>

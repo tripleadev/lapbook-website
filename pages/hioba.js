@@ -28,6 +28,14 @@ const Rodzaju = () => (
         <b>Teodycea</b> – dziedzina teologii zajmująca się konfliktem między ideą miłosiernego Boga
         a istnieniem zła.
       </p>
+      <h2>Księga Hioba współcześnie</h2>
+      <p>
+        <b>Grupa Filmowa Darwin</b>, stworzyła serię krótkometrażowych filmów p.t. „Wielkie
+        Konflikty”, przedstawiającą zatargi postaci znanych z literatury i popkultury. Jeden
+        z odcinków został poświęcony księdze Hioba.
+        <br />
+        <a href="https://www.youtube.com/watch?v=cysxgayjuqI">Hiob vs Szatan</a>
+      </p>
       <i>
         Bibliografia:
         <br />
