@@ -19,16 +19,14 @@ const Rodzaju = () => (
       <br />
       <i>~Koh 1,2</i>
       <h2>Księga Koheleta w pigułce</h2>
-      <p>
-        <ul>
-          <li>Jedna z ksiąg mądrościowych</li>
-          <li>Napisana między III a II w. p.n.e.</li>
-          <li>Jej motywem przewodnim jest doczesność i przemijanie</li>
-          <li>
-            Tradycyjnie autorstwo przypisuje się Salomonowi <i>(Koh 1,1)</i>
-          </li>
-        </ul>
-      </p>
+      <ul>
+        <li>Jedna z ksiąg mądrościowych</li>
+        <li>Napisana między III a II w. p.n.e.</li>
+        <li>Jej motywem przewodnim jest doczesność i przemijanie</li>
+        <li>
+          Tradycyjnie autorstwo przypisuje się Salomonowi <i>(Koh 1,1)</i>
+        </li>
+      </ul>
       <h2>Pojęcia i definicje</h2>
       <p>
         <b>Vanitas</b> – motyw w sztuce i religii, pełen symboliki, skupiający się na przemijaniu.

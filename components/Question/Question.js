@@ -1,8 +1,10 @@
-import React, { useState } from 'react';
+import React, { useState, useEffect } from 'react';
 import './Question.scss';
 
 const Question = ({ question, onSubmit, isWaiting }) => {
   const [inputValue, setInputValue] = useState('');
+
+  useEffect(() => setInputValue(''), [question]);
 
   const renderQuestion = () => {
     switch (question.type) {
@@ -36,7 +38,7 @@ const Question = ({ question, onSubmit, isWaiting }) => {
                     checked={inputValue === answer}
                     onChange={() => setInputValue(answer)}
                   />
-                  {answer}
+                  {' ' + answer}
                 </label>
               </div>
             ))}

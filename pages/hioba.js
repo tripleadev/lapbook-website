@@ -19,12 +19,10 @@ const Rodzaju = () => (
       <br />
       <i>~Hi 2,6</i>
       <h2>Księga Hioba w pigułce</h2>
-      <p>
-        <ul>
-          <li>Datowana na V w. p.n.e. </li>
-          <li>Porusza temat niezawinionego cierpienia i istnienia zła na świecie</li>
-        </ul>
-      </p>
+      <ul>
+        <li>Datowana na V w. p.n.e. </li>
+        <li>Porusza temat niezawinionego cierpienia i istnienia zła na świecie</li>
+      </ul>
       <h2>Pojęcia i definicje</h2>
       <p>
         <b>Teodycea</b> – dziedzina teologii zajmująca się konfliktem między ideą miłosiernego Boga
