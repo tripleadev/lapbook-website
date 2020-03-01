@@ -1,15 +1,22 @@
-import React, { useState } from 'react';
+import React, { useState, useEffect } from 'react';
 import Layout from '../components/Layout/Layout';
 import Navigation from '../components/Navigation/Navigation';
 import '../components/QuizPage/QuizPage.scss';
 import Question from '../components/Question/Question';
 import { questions } from '../components/QuizPage/questions';
+import shuffle from 'lodash.shuffle';
 
 const QuizPage = () => {
   const [index, setIndex] = useState(-1);
   const [message, setMessage] = useState('');
   const [correctAnswers, setCorrectAnswers] = useState(0);
   const [waiting, setWaiting] = useState(false);
+
+  useEffect(() => {
+    questions.forEach(question => {
+      if (question.answers) question.answers = shuffle(question.answers);
+    });
+  }, []);
 
   const onSubmit = ({ value, question }) => {
     if (value === question.answer) {
@@ -69,7 +76,7 @@ const QuizPage = () => {
               </b>
             </p>
             <p>
-              Poprawność odpowiedzi: <b>{(correctAnswers * 100) / questions.length}%</b>
+              Poprawność odpowiedzi: <b>{Math.round((correctAnswers * 100) / questions.length)}%</b>
             </p>
             <button className="restart" onClick={() => window.location.reload()}>
               Zagraj jeszcze raz!
