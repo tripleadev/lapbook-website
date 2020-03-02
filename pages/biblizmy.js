@@ -7,10 +7,10 @@ const Biblizmy = () => (
   <Layout title="Biblizmy">
     <Header
       title="Biblizmy"
-      img="https://ocdn.eu/pulscms-transforms/1/BjBktkqTURBXy8zOGM2YjFkMGMzMmM4ZmZkNjQ4MTgwYWU1Njc5NjFkMi5qcGVnkZUDAMyUzRKQzQpx"
+      img="https://upload.wikimedia.org/wikipedia/commons/e/ed/Nuremberg_chronicles_f_21r.png"
       credit={
-        <a href="https://www.shutterstock.com/pl/image-photo/deventer-netherlands-march-16-old-dutch-153715283">
-          Shutterstock - by hans engbers
+        <a href="https://pl.wikipedia.org/wiki/Sodoma_i_Gomora#/media/Plik:Nuremberg_chronicles_f_21r.png">
+          Wikipedia - Ucieczka Lota z rodziną z Sodomy
         </a>
       }
     />
