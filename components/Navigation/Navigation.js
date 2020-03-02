@@ -39,6 +39,9 @@ const Navigation = () => {
           <Link href="/przeklady">
             <a>Przekłady Biblii</a>
           </Link>
+          <Link href="/biblizmy">
+            <a>Biblizmy</a>
+          </Link>
           <Link href="/postaci-symbole">
             <a>Postaci i symbole</a>
           </Link>

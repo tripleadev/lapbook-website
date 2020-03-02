@@ -29,6 +29,9 @@ const IndexPage = () => (
         <Link href="/postaci-symbole">
           <a>Postaci i symbole</a>
         </Link>
+        <Link href="/biblizmy">
+          <a>Biblizmy</a>
+        </Link>
         <Link href="/quiz">
           <a>Quiz</a>
         </Link>
