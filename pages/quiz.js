@@ -57,6 +57,9 @@ const QuizPage = () => {
           </>
         ) : index < questions.length ? (
           <>
+            <p>
+              Pytanie {index + 1}/{questions.length}
+            </p>
             <Question question={questions[index]} onSubmit={onSubmit} isWaiting={waiting} />
             <div dangerouslySetInnerHTML={{ __html: message }} />
           </>
